@@ -149,9 +149,11 @@
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp" />
     <ClCompile Include="lastStoneWeight.cpp" />
+    <ClCompile Include="maxSumSubmatrix.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithmHeader.h" />
+    <ClInclude Include="maxSumSubmatrix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
