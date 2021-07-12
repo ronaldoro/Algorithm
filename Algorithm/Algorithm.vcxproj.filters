@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\PrefixSum">
       <UniqueIdentifier>{fdec4fe5-1f9c-4ce6-8d8d-794cf9139349}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\String">
+      <UniqueIdentifier>{159c09cc-fcb2-41f4-8b3b-5e16a50e0cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DP">
+      <UniqueIdentifier>{fe9c3f0f-0781-4adb-8c1a-e26d01baef19}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp">
@@ -30,6 +36,12 @@
     <ClCompile Include="maxSumSubmatrix.cpp">
       <Filter>소스 파일\PrefixSum</Filter>
     </ClCompile>
+    <ClCompile Include="reverseString.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="findlength.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithmHeader.h">
@@ -37,6 +49,12 @@
     </ClInclude>
     <ClInclude Include="maxSumSubmatrix.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="reverseString.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="findLength.h">
+      <Filter>소스 파일\DP</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

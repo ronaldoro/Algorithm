@@ -150,10 +150,13 @@
     <ClCompile Include="Algorithm.cpp" />
     <ClCompile Include="lastStoneWeight.cpp" />
     <ClCompile Include="maxSumSubmatrix.cpp" />
+    <ClCompile Include="reverseString.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithmHeader.h" />
+    <ClInclude Include="findLength.h" />
     <ClInclude Include="maxSumSubmatrix.h" />
+    <ClInclude Include="reverseString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
