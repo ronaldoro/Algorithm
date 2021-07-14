@@ -10,7 +10,7 @@ public:
                 temp += order[i];
                 str.erase(find(str.begin(), str.end(), order[i]));    
             }
-            
+             
         }
     
         return temp + str;   
