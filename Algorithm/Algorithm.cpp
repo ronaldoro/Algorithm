@@ -2,15 +2,15 @@
 //
 
 //#include "maxSumSubmatrix.h"
-#include "findLength.h"
+#include "isIsomorphic.h"
 
 int main() {
 
-	vector<int> nums1 = { 1,2,3,2,1 };
-	vector<int> nums2 = { 3,2,1,4,7 };
 
 	Solution s;
-	s.findLength(nums1, nums2);
+	s.isIsomorphic("badc", "baba");
+	//1 96 ,  2 96
 
+	// 99(9 * 11) + 99(11*9)
 	return 1;
 }
