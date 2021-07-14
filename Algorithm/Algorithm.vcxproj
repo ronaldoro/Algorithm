@@ -155,7 +155,9 @@
   <ItemGroup>
     <ClInclude Include="algorithmHeader.h" />
     <ClInclude Include="findLength.h" />
+    <ClInclude Include="isIsomorphic.h" />
     <ClInclude Include="maxSumSubmatrix.h" />
+    <ClInclude Include="numDecodings.h" />
     <ClInclude Include="reverseString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

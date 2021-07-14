@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\DP">
       <UniqueIdentifier>{fe9c3f0f-0781-4adb-8c1a-e26d01baef19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Hash">
+      <UniqueIdentifier>{5fa08d85-60da-4719-ba79-80b4d36d7cf5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp">
@@ -39,9 +42,6 @@
     <ClCompile Include="reverseString.cpp">
       <Filter>소스 파일\String</Filter>
     </ClCompile>
-    <ClCompile Include="findlength.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithmHeader.h">
@@ -55,6 +55,12 @@
     </ClInclude>
     <ClInclude Include="findLength.h">
       <Filter>소스 파일\DP</Filter>
+    </ClInclude>
+    <ClInclude Include="numDecodings.h">
+      <Filter>소스 파일\DP</Filter>
+    </ClInclude>
+    <ClInclude Include="isIsomorphic.h">
+      <Filter>소스 파일\Hash</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
