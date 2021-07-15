@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\Hash">
       <UniqueIdentifier>{5fa08d85-60da-4719-ba79-80b4d36d7cf5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\TwoPointer">
+      <UniqueIdentifier>{882164ad-49f4-40bf-868d-d5835a979cde}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp">
@@ -61,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="isIsomorphic.h">
       <Filter>소스 파일\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="triangleNumber.h">
+      <Filter>소스 파일\TwoPointer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
