@@ -153,6 +153,7 @@
     <ClCompile Include="reverseString.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="4Sum.h" />
     <ClInclude Include="algorithmHeader.h" />
     <ClInclude Include="findLength.h" />
     <ClInclude Include="isIsomorphic.h" />

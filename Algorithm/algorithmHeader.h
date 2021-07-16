@@ -9,5 +9,6 @@
 #include <math.h>
 #include <map>
 #include <set>
+#include <algorithm>
 
 using namespace std;

@@ -2,18 +2,16 @@
 //
 
 //#include "maxSumSubmatrix.h"
-#include "triangleNumber.h"
+#include "4Sum.h"
 
 int main() {
 
-	vector<int> testCase = { 1,2,3,4,5,6 };
+	vector<int> testCase = { 2,2,2,2,2 };
 	//vector<int> testCase = { 2,2,3,4 };
 	//vector<int> testCase = { 4,2,3,4 };
 
 	Solution s;
-	s.triangleNumber(testCase);
-	//1 96 ,  2 96
+	s.fourSum(testCase, 8);
 
-	// 99(9 * 11) + 99(11*9)
 	return 1;
 }

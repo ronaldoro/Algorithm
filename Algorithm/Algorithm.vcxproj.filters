@@ -68,5 +68,8 @@
     <ClInclude Include="triangleNumber.h">
       <Filter>소스 파일\TwoPointer</Filter>
     </ClInclude>
+    <ClInclude Include="4Sum.h">
+      <Filter>소스 파일\TwoPointer</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
