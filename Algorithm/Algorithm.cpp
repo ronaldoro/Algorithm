@@ -2,16 +2,17 @@
 //
 
 //#include "maxSumSubmatrix.h"
-#include "4Sum.h"
+#include "RankSearch_KAKAO.h"
 
 int main() {
 
-	vector<int> testCase = { 2,2,2,2,2 };
+	vector<string> info = { "java backend junior pizza 150" };
+	vector<string> query = { "- and - and - and - 150" };
 	//vector<int> testCase = { 2,2,3,4 };
 	//vector<int> testCase = { 4,2,3,4 };
 
 	Solution s;
-	s.fourSum(testCase, 8);
+	s.rankSearch(info, query);
 
 	return 1;
 }

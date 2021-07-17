@@ -159,6 +159,7 @@
     <ClInclude Include="isIsomorphic.h" />
     <ClInclude Include="maxSumSubmatrix.h" />
     <ClInclude Include="numDecodings.h" />
+    <ClInclude Include="RankSearch_KAKAO.h" />
     <ClInclude Include="reverseString.h" />
     <ClInclude Include="triangleNumber.h" />
   </ItemGroup>
