@@ -74,5 +74,8 @@
     <ClInclude Include="RankSearch_KAKAO.h">
       <Filter>소스 파일\Hash</Filter>
     </ClInclude>
+    <ClInclude Include="threeEqualParts.h">
+      <Filter>소스 파일\TwoPointer</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

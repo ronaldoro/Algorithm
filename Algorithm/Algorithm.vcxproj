@@ -161,6 +161,7 @@
     <ClInclude Include="numDecodings.h" />
     <ClInclude Include="RankSearch_KAKAO.h" />
     <ClInclude Include="reverseString.h" />
+    <ClInclude Include="threeEqualParts.h" />
     <ClInclude Include="triangleNumber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

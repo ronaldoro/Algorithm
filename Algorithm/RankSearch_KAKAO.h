@@ -7,27 +7,28 @@ public:
         vector<int> answer;
 
         vector<vector<
-            pair<int, vector<           // cpp(0), java(1), python(2)
-            pair<int, vector<           // b(0), f(1)
-            pair<int, vector<           // junior(0), senior(1)
-            pair<int, int>>>>>>>>> hash;   // food, score
+            vector<           // cpp(0), java(1), python(2)
+            vector<           // b(0), f(1)
+            vector<           // junior(0), senior(1)
+            int>>>>> hash;   // food, score
 
         for (int i = 0; i < info.size(); ++i) {
             vector<string> splitString = split(info[i], ' ');
 
-            vector<pair<int, int>> temp;
+
+            vector<vector<int>> temp;
             if (splitString[3] == "chicken") {
-                temp.push_back(make_pair(0, stoi(splitString[4])));
+                temp.push_back({ 0, stoi(splitString[4]) } );
             }
             else {
-                temp.push_back(make_pair(1, stoi(splitString[4])));
+                temp.push_back({ 1, stoi(splitString[4]) });
             }
 
-            vector<pair<int, vector<pair<int, int>>>> temp1;
+            vector<vector<vector<int>>> temp1;
             if (splitString[2] == "junior") {
-                temp1.push_back(make_pair(0, temp));
+                temp1.push_back(vector<vector<int>>());
             } else {
-                temp1.push_back(make_pair(1, temp));
+                //temp1.push_back({ 1, temp });
             }
 
             vector<pair<int, vector<pair<int, vector<pair<int, int>>>>>> temp2;
@@ -112,7 +113,8 @@ public:
                         for (int idx3 = 0; idx3 < index3.size(); ++idx3) {
 
                             for (int j = 0; j < hash.size(); ++j) {
-                                //int iA = hash[j][idx0].second[idx1].second[idx2].second[idx3].second;
+                                //hash[j][idx0].second.size() > 0 ? ;
+                                    //second[idx1].second[idx2].second[idx3].second;
                             }
 
 
@@ -123,7 +125,7 @@ public:
          
         }
 
-        vector<pair<int, int>> test = { {1,5}, {1,2}, {1,4} , {1,3} , {1,3} };
+        vector<vector<int>> test = { {1,5}, {1,2}, {1,4} , {1,3} , {1,3} };
         sort(test.begin(), test.end());
 
 
