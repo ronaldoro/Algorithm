@@ -153,12 +153,16 @@
     <ClCompile Include="reverseString.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="4Sum.h" />
     <ClInclude Include="algorithmHeader.h" />
     <ClInclude Include="findLength.h" />
     <ClInclude Include="isIsomorphic.h" />
     <ClInclude Include="maxSumSubmatrix.h" />
     <ClInclude Include="numDecodings.h" />
+    <ClInclude Include="RankSearch_KAKAO.h" />
     <ClInclude Include="reverseString.h" />
+    <ClInclude Include="threeEqualParts.h" />
+    <ClInclude Include="triangleNumber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
