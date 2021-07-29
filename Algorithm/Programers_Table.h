@@ -48,7 +48,7 @@ public:
 
             }
             else { //U X or D X
-                int move = stoi(cmd[i].substr(1,2));
+                int move = stoi(cmd[i].substr(1, cmd[i].length()-1));
                 if (cmd[i][0] == 'D') {
                     std::set<int>::iterator next = current;
                     for (int i = 0; i < move; ++i) {
