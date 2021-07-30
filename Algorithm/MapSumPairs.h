@@ -2,6 +2,19 @@
 
 #pragma once
 
+class Trie {
+public:
+    map<char, Trie*> childs;
+    int score;
+
+    ~Trie() {
+        map<char, Trie*>::iterator iter = childs.begin();
+        for (; iter != childs.end(); ++iter) {
+            delete iter->second;
+        }
+    }
+};
+
 class MapSum {
 public:
     Trie root;
@@ -15,43 +28,46 @@ public:
         int value = 0;
         if (keyMap.find(key) == keyMap.end()) {
             value = val;
+            keyMap.insert(make_pair(key, val));
+        }
+        else {
+            value = val - keyMap[key];
+            keyMap[key] = val;
         }
 
-        Trie& node = root;
-        node.score += value;
+        Trie* node = &root;
+        node->score += value;
 
         for (int i = 0; i < key.length(); ++i) {
-            if (node.childs.find(key[i]) != node.childs.end()) {
-                node.childs[i].score += val;
-                node = node.childs[i];
+            if (node->childs.find(key[i]) != node->childs.end()) {
+                node->childs[key[i]]->score += value;
+                node = node->childs[key[i]];
             }
             else {
-                Trie node;
-                node.childs.insert(make_pair(key[i], node));
+                Trie* newNode = new Trie;
+                newNode->score = value;
+                node->childs.insert(make_pair(key[i], newNode));
+
+                node = newNode;
             } 
         }
 
     }
 
     int sum(string prefix) {
-        Trie node = root;
+        Trie* node = &root;
         for (int i = 0; i < prefix.length(); ++i) {
-            if (node.childs.find(prefix[i]) != node.childs.end()) {
-                node = node.childs[prefix[i]];
+            if (node->childs.find(prefix[i]) != node->childs.end()) {
+                node = node->childs[prefix[i]];
             }
             else {
                 return 0;
             }
         }
-        return node.score;
+        return node->score;
     }
 };
 
-class Trie {
-public:
-    map<char, Trie> childs;
-    int score;
-};
 
 /**
  * Your MapSum object will be instantiated and called as such:
