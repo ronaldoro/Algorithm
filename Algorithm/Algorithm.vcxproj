@@ -155,14 +155,35 @@
   <ItemGroup>
     <ClInclude Include="4Sum.h" />
     <ClInclude Include="algorithmHeader.h" />
+    <ClInclude Include="Dijkstra.h" />
+    <ClInclude Include="findIntegers.h" />
+    <ClInclude Include="findLadders.h" />
+    <ClInclude Include="findLadders1.h" />
     <ClInclude Include="findLength.h" />
     <ClInclude Include="isIsomorphic.h" />
+    <ClInclude Include="judgeSquareSum.h" />
+    <ClInclude Include="MakingALargeIsland.h" />
+    <ClInclude Include="MapSumPairs.h" />
+    <ClInclude Include="MenuRenual.h" />
+    <ClInclude Include="minCut.h" />
+    <ClInclude Include="PathSum2.h" />
+    <ClInclude Include="Programers_Table.h" />
+    <ClInclude Include="lowestCommonAncestor.h" />
     <ClInclude Include="maxSumSubmatrix.h" />
     <ClInclude Include="numDecodings.h" />
+    <ClInclude Include="partitionDisjoint.h" />
+    <ClInclude Include="Programmers_DistanceCheck.h" />
+    <ClInclude Include="Programmers_InteagerDic.h" />
+    <ClInclude Include="Programmers_MazeEscape.h" />
     <ClInclude Include="RankSearch_KAKAO.h" />
     <ClInclude Include="reverseString.h" />
+    <ClInclude Include="sortedArrayToBST.h" />
+    <ClInclude Include="StoneGame.h" />
+    <ClInclude Include="Subset2.h" />
     <ClInclude Include="threeEqualParts.h" />
+    <ClInclude Include="TrappingRainWater.h" />
     <ClInclude Include="triangleNumber.h" />
+    <ClInclude Include="updateMatrix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

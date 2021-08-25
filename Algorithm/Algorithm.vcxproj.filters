@@ -31,6 +31,36 @@
     <Filter Include="소스 파일\TwoPointer">
       <UniqueIdentifier>{882164ad-49f4-40bf-868d-d5835a979cde}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BinarySearch">
+      <UniqueIdentifier>{e1e984d6-057f-4e41-a629-40b2531caafe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BFS">
+      <UniqueIdentifier>{0d8ead73-7dd2-4394-b08f-bd158d5ab2df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Bitset">
+      <UniqueIdentifier>{fe094331-a777-4b4c-8dfb-f3cb4624fad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\None">
+      <UniqueIdentifier>{035b0146-9cf3-42d0-ae12-3d6845cc656f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Trie">
+      <UniqueIdentifier>{1cff1670-d5df-4bad-a666-7bafc18d5346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dijkstra">
+      <UniqueIdentifier>{bdb7a0b7-383c-421e-af34-da9023f39687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Stack">
+      <UniqueIdentifier>{256d2065-b6ce-466d-adc1-7af7f1adeebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DFS">
+      <UniqueIdentifier>{d864f8cb-b9c6-400d-bc41-84afa5d3bf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BackTracking">
+      <UniqueIdentifier>{b0abb671-dfd0-4402-be67-4a20951b1b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TEST">
+      <UniqueIdentifier>{31731550-b21a-4590-b7a3-ef76b6e92951}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp">
@@ -75,6 +105,69 @@
       <Filter>소스 파일\Hash</Filter>
     </ClInclude>
     <ClInclude Include="threeEqualParts.h">
+      <Filter>소스 파일\TwoPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="lowestCommonAncestor.h">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="partitionDisjoint.h">
+      <Filter>소스 파일\DP</Filter>
+    </ClInclude>
+    <ClInclude Include="findLadders.h">
+      <Filter>소스 파일\BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="findLadders1.h">
+      <Filter>소스 파일\BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="findIntegers.h">
+      <Filter>소스 파일\Bitset</Filter>
+    </ClInclude>
+    <ClInclude Include="sortedArrayToBST.h">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="Programmers_InteagerDic.h">
+      <Filter>소스 파일\None</Filter>
+    </ClInclude>
+    <ClInclude Include="Programmers_DistanceCheck.h">
+      <Filter>소스 파일\None</Filter>
+    </ClInclude>
+    <ClInclude Include="updateMatrix.h">
+      <Filter>소스 파일\BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="Programers_Table.h">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSumPairs.h">
+      <Filter>소스 파일\Trie</Filter>
+    </ClInclude>
+    <ClInclude Include="Programmers_MazeEscape.h">
+      <Filter>소스 파일\BFS</Filter>
+    </ClInclude>
+    <ClInclude Include="Dijkstra.h">
+      <Filter>소스 파일\Dijkstra</Filter>
+    </ClInclude>
+    <ClInclude Include="TrappingRainWater.h">
+      <Filter>소스 파일\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="MakingALargeIsland.h">
+      <Filter>소스 파일\DFS</Filter>
+    </ClInclude>
+    <ClInclude Include="Subset2.h">
+      <Filter>소스 파일\BackTracking</Filter>
+    </ClInclude>
+    <ClInclude Include="PathSum2.h">
+      <Filter>소스 파일\BackTracking</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneGame.h">
+      <Filter>소스 파일\DP</Filter>
+    </ClInclude>
+    <ClInclude Include="minCut.h">
+      <Filter>소스 파일\TwoPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuRenual.h">
+      <Filter>소스 파일\TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="judgeSquareSum.h">
       <Filter>소스 파일\TwoPointer</Filter>
     </ClInclude>
   </ItemGroup>
