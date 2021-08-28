@@ -170,5 +170,11 @@
     <ClInclude Include="judgeSquareSum.h">
       <Filter>소스 파일\TwoPointer</Filter>
     </ClInclude>
+    <ClInclude Include="isValidSerialization.h">
+      <Filter>소스 파일\DFS</Filter>
+    </ClInclude>
+    <ClInclude Include="JobScheduling.h">
+      <Filter>소스 파일\DP</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

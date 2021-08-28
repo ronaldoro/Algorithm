@@ -161,6 +161,8 @@
     <ClInclude Include="findLadders1.h" />
     <ClInclude Include="findLength.h" />
     <ClInclude Include="isIsomorphic.h" />
+    <ClInclude Include="isValidSerialization.h" />
+    <ClInclude Include="JobScheduling.h" />
     <ClInclude Include="judgeSquareSum.h" />
     <ClInclude Include="MakingALargeIsland.h" />
     <ClInclude Include="MapSumPairs.h" />
