@@ -1,12 +1,5 @@
-﻿// Algorithm.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
-
-//#include "maxSumSubmatrix.h"
-//#include "MakingALargeIsland.h"
-
-#include "jobScheduling.h"
-using namespace std;
-
+#include "algorithmHeader.h"
+#pragma once
 bool insertPos(queue<vector<int>>& que, vector<int> pos, set<vector<int>>& visited, int N) {
     if (visited.find(pos) == visited.end()) {
         if ((pos[0] == N - 1 && pos[1] == N - 1) || (pos[2] == N - 1 && pos[3] == N - 1)) {
@@ -126,7 +119,7 @@ int BFS(const vector<vector<int>>& board) {
                     check |= insertPos(que, pos, visited, N);
                 }
 
-                if (quePos[3] + 1 < N && board[quePos[3]+1][quePos[2]] == 0) {
+                if (quePos[3] + 1 < N && board[quePos[3] + 1][quePos[2]] == 0) {
                     //moveDown
                     vector<int> pos = { quePos[0],quePos[1] + 1, quePos[2], quePos[3] + 1 };
                     check |= insertPos(que, pos, visited, N);
@@ -145,15 +138,4 @@ int BFS(const vector<vector<int>>& board) {
     }
 
     return result;
-}
-
-int solution(vector<vector<int>> board) {
-    return BFS(board);
-}
-
-int main() {
-    vector<vector<int>> build_frame = { {0, 0, 0, 1, 1},{0, 0, 0, 1, 0},{0, 1, 0, 1, 1},{1, 1, 0, 0, 1},{0, 0, 0, 0, 0} };
-    solution(build_frame);
-
-	return 1;
 }

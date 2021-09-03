@@ -176,5 +176,8 @@
     <ClInclude Include="JobScheduling.h">
       <Filter>소스 파일\DP</Filter>
     </ClInclude>
+    <ClInclude Include="MoveBlock.h">
+      <Filter>소스 파일\BFS</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

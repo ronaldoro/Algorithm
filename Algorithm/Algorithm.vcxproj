@@ -168,6 +168,7 @@
     <ClInclude Include="MapSumPairs.h" />
     <ClInclude Include="MenuRenual.h" />
     <ClInclude Include="minCut.h" />
+    <ClInclude Include="MoveBlock.h" />
     <ClInclude Include="PathSum2.h" />
     <ClInclude Include="Programers_Table.h" />
     <ClInclude Include="lowestCommonAncestor.h" />
